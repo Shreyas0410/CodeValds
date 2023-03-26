@@ -1,0 +1,54 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    
+}
+
+#comp-title{
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+#comp-desc{
+    font-size: 2rem;
+    padding: 5px 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#comp-local{
+    font-size: 2rem;
+}
+#comp-votes{
+    font-size: 2rem;
+}
+#comp-img{
+    height: 300px;
+    max-width: 300px;
+}
+#random{
+ display: flex;
+ flex-direction: row;  
+ justify-content: space-between; 
+}
+
+#rando{
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#rando:hover{
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+p{
+    font-size: 2.5rem;
+}
